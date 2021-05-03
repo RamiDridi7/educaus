@@ -21,8 +21,17 @@ Template Files : https://drive.google.com/file/d/1m2xOixlDaloiPnlXzytIXacILLL_YG
     <!-- Section: Client Say -->
     <!-- Section: blog -->
     <!-- Divider: Call To Action -->
+# To Add new Page follow these steps : 
+    run command : - Symfony make:controller
+                  - After naming it, a new twig file will be created under templates/
+                  - Open .html file you want to integrate
+                  - Look for <div class="main-content">
+                  - navigate to templates/NAME.html.twig
+                  - Past the CONTENT of the DIV  in {% block body %} {% end block %} 
+                  - Create a route and check your work 
+   
     
- Please Rememeber to only commit a code without errors
+# Please Rememeber to only commit a code without errors
  
  
 
