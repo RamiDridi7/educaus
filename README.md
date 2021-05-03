@@ -9,7 +9,7 @@ Template Files : https://drive.google.com/file/d/1m2xOixlDaloiPnlXzytIXacILLL_YG
         <!-- Start main-content -->
         <!-- End main-content -->
     <!-- Footer -->
-
+# /!\ Please Rememeber to only commit a code without errors /!\
 # index.html.twig contains  only content of home page
     <!-- Section: About  -->
     <!-- Section: Divider -->
@@ -31,7 +31,6 @@ Template Files : https://drive.google.com/file/d/1m2xOixlDaloiPnlXzytIXacILLL_YG
                   - Create a route and check your work 
    
     
-# Please Rememeber to only commit a code without errors
  
  
 
