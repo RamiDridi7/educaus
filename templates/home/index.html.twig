@@ -1,9 +1,8 @@
 {% extends "base.html.twig" %}
 
 {% block title %}Educaus | Dev {% endblock %}
-{% block head %}
-{% endblock %}
-{% block main %}
+
+{% block body %}
     <!-- Section: home -->
     <section id="home">
         <div class="container-fluid p-0">
@@ -16,7 +15,7 @@
                         <!-- SLIDE 1 -->
                         <li data-index="rs-1" data-transition="slidingoverlayhorizontal" data-slotamount="default" data-easein="default" data-easeout="default" data-masterspeed="default" data-thumb="http://placehold.it/1920x1280" data-rotate="0" data-saveperformance="off" data-title="Slide 1" data-description="">
                             <!-- MAIN IMAGE -->
-                            <img src="http://placehold.it/1920x1280"  alt=""  data-bgposition="center 10%" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-bgparallax="10" data-no-retina>
+                            <img src="{{ asset('Assets/images/slide_usa.jpg') }}"  alt=""  data-bgposition="center 10%" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-bgparallax="10" data-no-retina>
                             <!-- LAYERS -->
 
                             <!-- LAYER NR. 1 -->
@@ -509,10 +508,10 @@
             <div class="pt-20 pb-20 bg-theme-color-2" data-margin-top="-115px">
                 <div class="row">
                     <div class="col-md-9">
-                        <h3 class="mt-5 ml-50 ml-sm-0 text-white sm-text-center font-weight-600">Edupress The Best Education & University HTML Template Ever!</h3>
+                        <h3 class="mt-5 ml-50 ml-sm-0 text-white sm-text-center font-weight-600">Educaus study & travel in the united states</h3>
                     </div>
                     <div class="col-md-3 sm-text-center">
-                        <a class="btn btn-flat btn-theme-colored btn-lg mt-5 ml-30 ml-sm-0" href="#">Purchase Now<i class="fa fa-angle-double-right font-16 ml-10"></i></a>
+                        <a class="btn btn-flat btn-theme-colored btn-lg mt-5 ml-30 ml-sm-0" href="{{ path('booking') }}">Book Now<i class="fa fa-angle-double-right font-16 ml-10"></i></a>
                     </div>
                 </div>
             </div>
@@ -677,7 +676,7 @@
         </div>
     </section>
 
-    <!-- Section: team -->
+        <!-- Section: team -->
     <section>
         <div class="container pt-60">
             <div class="section-title mb-0">
@@ -1191,4 +1190,5 @@
     </section>
 
     <!-- end main-content -->
+
 {% endblock %}

@@ -1,3 +1,60 @@
 index:
-    path: /
+    path:       /
     controller: App\Controller\HomeController::index
+    
+contact:
+    path:       /contact
+    controller: App\Controller\ContactController::new
+
+offers:
+    path:       /services
+    controller: App\Controller\OffersController::index
+
+booking:
+    path:       /booking
+    controller: App\Controller\BookingController::new
+
+Compose:
+    path:       /admin/compose
+    controller: App\Controller\ContactController::compose
+
+show:
+    path:       /admin/contacts
+    controller: App\Controller\ContactController::show
+
+read:
+    path:       /admin/read/{id}
+    controller: App\Controller\ContactController::read
+
+calendar:
+    path:       /admin/calendar
+    controller: App\Controller\CalendarController::index
+
+addCalendar:
+    path:       /admin/calendar/new
+    controller: App\Controller\CalendarController::new
+
+event:
+    path:       /admin/event
+    controller: App\Controller\EventController::new
+
+eventChange:
+    path:       /admin/eventChange/{id}
+    controller: App\Controller\EventController::edit
+
+email:
+    path:       /admin/email/{adrs}
+    controller: App\Controller\ContactController::sendEmail
+
+manage:
+    path:       /admin/manage
+    controller: App\Controller\NewsController::index
+
+newsadd:
+    path:       /admin/manage/add
+    controller: App\Controller\NewsController::new
+
+deleteCon:
+    path:       /admin/contact/delete
+    controller: App\Controller\ContactController::delete
+
